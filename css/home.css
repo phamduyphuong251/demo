@@ -1,0 +1,238 @@
+div {
+    background: white;
+    color: black;
+}
+
+button {
+    background-color: rgb(0, 131, 199);
+    color:white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+
+div.tab {
+    background: white;
+    color: white;
+    width: fit-content;
+    margin: left;
+}
+
+table {
+    /* color: white; */
+    width: 500px;
+    margin: auto;
+}
+
+#Import {
+    color: black;
+    width: 100%;
+    margin: auto;
+}
+
+#Export {
+    color: black;
+    width: 100%;
+    margin: auto;
+}
+
+#Query {
+    color: black;
+    height: 550px;
+    width: 100%;
+    margin: auto;
+    overflow: scroll;
+}
+
+#Other {
+    color: black;
+    width: 100%;
+    margin: auto;
+}
+
+#Help {
+    color: black;
+    width: 100%;
+    margin: auto;
+}
+
+#left {
+    line-height: 30px;
+    display: block;
+    text-align: left;
+    margin: auto;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 600;
+    overflow: scroll;
+}
+
+
+
+span {
+    display: inline;
+    /* the default for span */
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+table,
+td {
+    border: 1px solid black;
+}
+
+th {
+    font: solid black;
+}
+
+body {
+    font-family: Arial;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: solid rgb(0, 131, 199);
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    color:black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    color:white;
+    background-color: rgb(0, 131, 199);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    color:white;
+    background-color: rgb(0, 131, 199);
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 577px;
+    border: 3px solid rgb(0, 131, 199);
+    /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left,
+.right {
+    width: 15%;
+    overflow: scroll;
+}
+
+.middle {
+    width: 70%;
+}
+
+img {
+    width: 30px;
+}
+
+.left-header {
+    width: 3%;
+    margin: auto;
+    display: block;
+    border: none;
+    height: 60px;
+    background-color: rgb(0, 131, 199);
+}
+
+.right-header {
+    width: 97%;
+    margin: left;
+    display: block;
+    border: none;
+    height: 60px;
+    background-color: rgb(0, 131, 199);
+}
+
+.left-footer {
+    width: 3%;
+    margin: auto;
+    display: block;
+    border: none;
+    height: 60px;
+    background-color: rgb(0, 131, 199);
+}
+
+.right-footer {
+    width: 97%;
+    margin: left;
+    display: block;
+    border: none;
+    height: 60px;
+    background-color: rgb(0, 131, 199);
+}
+
+h6 {
+    width: fit-content;
+    height: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 10px;
+}
+
+/* h2{
+    width: fit-content;
+    height: 10px;
+    margin: 10px;
+    color:  white;
+    font-size: 25px;
+} */
+
+.topright {
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.menu:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+dt {
+    margin: left;
+    margin-top: 5px;
+}
